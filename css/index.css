@@ -1,0 +1,138 @@
+body {
+    background-color: #fffef3;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #403f3d;
+}
+
+/* Text styling */
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #fffef3;
+    font-size: 32pt;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28pt;
+    color: #403f3d;
+    font-weight: 600;
+}
+
+/* Navigation styling */
+
+nav {
+    background-color: #989fb3;
+}
+
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    font-size: 18pt;
+}
+
+.navbar-light .navbar-brand{
+    color: #fffef3;
+}
+
+#navbarNav {
+    margin-left: 5%;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 14pt;
+    color: #fffef3;
+}
+
+.nav-link .active {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 3%;
+}
+
+/* Jumbotron styling */
+.jumbotron {
+    background: url('../images/quilt-2.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    text-align: center;
+}
+
+.page01 {
+    background: url('../images/sewing.jpeg') no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    text-align: center;
+}
+
+.page02 {
+    background: url('../images/sewing-3.jpeg') no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    text-align: center;
+}
+
+.page03 {
+    background: url('../images/sewing-5.jpeg') no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+}
+
+/* Card styling */
+.card {
+    margin: 0 auto;
+    float: none;
+}
+
+/* Secondary Nav styling */
+.secondaryNav section {
+    font-size: 16pt;
+    margin: 0 auto;
+}
+
+.secondaryNav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.secondaryNav ul li {
+    display: list-item;
+    margin: 5%;
+}
+
+.secondaryNav ul li a {
+    font-weight: 600;
+    color: #4c4266;
+    text-decoration: none;
+}
+
+.secondaryNav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Topic styling */
+
+#topic1 {
+    margin-bottom: 15%;
+}
+
+#topic2 {
+    margin-bottom: 15%;
+}
+
+.row {
+    margin: 2%;
+}
